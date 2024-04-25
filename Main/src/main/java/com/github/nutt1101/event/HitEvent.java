@@ -342,6 +342,7 @@ public class HitEvent implements Listener {
         String checkCustom = null;
 
         switch (CatchBall.getServerVersion()) {
+            case "1.20.5-R0.1-SNAPSHOT" -> checkCustom = NBT_v1_20_5.isCustomEntity(hitEntity);
             case "1.20.3-R0.1-SNAPSHOT", "1.20.4-R0.1-SNAPSHOT" -> checkCustom = NBT_v1_20_3.isCustomEntity(hitEntity);
             case "1.20.2-R0.1-SNAPSHOT" -> checkCustom = NBT_v1_20_2.isCustomEntity(hitEntity);
             case "1.20.1-R0.1-SNAPSHOT", "1.20-R0.1-SNAPSHOT" -> checkCustom = NBT_v1_20.isCustomEntity(hitEntity);

@@ -20,7 +20,7 @@ public class GoldEgg {
 
         ItemMeta meta = goldEgg.getItemMeta();
         meta.setDisplayName(ConfigSetting.toChat(TranslationFileReader.goldEggName, "", ""));
-        meta.addEnchant(Enchantment.DURABILITY, 1, true);
+        meta.addEnchant(Enchantment.SOUL_SPEED, 1, true);
         meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
 
         meta.setLore(TranslationFileReader.goldEggLore.stream().map(lore -> ChatColor.

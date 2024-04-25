@@ -5,7 +5,7 @@
     <parent>
         <artifactId>CatchBall</artifactId>
         <groupId>com.github.nutt1101</groupId>
-        <version>1.2.2</version>
+        <version>1.2.3</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -60,7 +60,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.20.4-R0.1-SNAPSHOT</version>
+            <version>1.20.5-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 
@@ -75,16 +75,16 @@
         <dependency>
             <groupId>res</groupId>
             <artifactId>Residence</artifactId>
-            <version>5.1.4.1</version>
+            <version>5.1.4.3</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/libs/Residence5.1.4.1.jar</systemPath>
+            <systemPath>${project.basedir}/libs/Residence5.1.4.3.jar</systemPath>
         </dependency>
 
         <!-- MythicMobs Api -->
         <dependency>
             <groupId>io.lumine</groupId>
             <artifactId>Mythic-Dist</artifactId>
-            <version>5.5.1</version>
+            <version>5.6.2</version>
             <scope>provided</scope>
         </dependency>
 
@@ -92,7 +92,7 @@
         <dependency>
             <groupId>com.github.TechFortress</groupId>
             <artifactId>GriefPrevention</artifactId>
-            <version>16.18.1</version>
+            <version>17.0.0</version>
             <scope>provided</scope>
         </dependency>
 
@@ -100,7 +100,7 @@
         <dependency>
             <groupId>com.github.angeschossen</groupId>
             <artifactId>LandsAPI</artifactId>
-            <version>6.42.15</version>
+            <version>6.44.14</version>
             <scope>provided</scope>
         </dependency>
 
@@ -217,6 +217,15 @@
             <scope>compile</scope>
             <optional>true</optional>
         </dependency>
+
+        <dependency>
+            <groupId>com.github.nutt1101</groupId>
+            <artifactId>v1_20_5</artifactId>
+            <version>1.2.3</version>
+            <type>jar</type>
+            <scope>compile</scope>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <build>
@@ -227,7 +236,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.5.1</version>
+                <version>3.5.2</version>
                 <configuration>
                     <relocations>
                         <relocation>
