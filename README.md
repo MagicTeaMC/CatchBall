@@ -5,7 +5,7 @@
 </body>
 
 ## Download:
-You can download a copy at [Hangar](https://hangar.papermc.io/Maoyue_OUO/CatchBall)  
+You can download a copy at [Modrinth](https://modrinth.com/plugin/catchball)  
 
 ## Usage:
 [Wiki](https://github.com/MagicTeaMC/CatchBall/wiki)
