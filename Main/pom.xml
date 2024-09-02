@@ -157,7 +157,7 @@
         <dependency>
             <groupId>com.github.Xyness</groupId>
             <artifactId>SimpleClaimSystem</artifactId>
-            <version>1.11.1.3</version>
+            <version>1.11.4</version>
         </dependency>
 
         <!--nms-->
